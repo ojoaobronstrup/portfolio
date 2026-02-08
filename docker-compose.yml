@@ -1,0 +1,6 @@
+services:
+  portfolio:
+    image: node
+    volumes:
+      - ./:/app
+    command: sleep infinity
